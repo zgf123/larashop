@@ -9,6 +9,11 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+// 此处需在引入 Vue 之后引入
+require('./components/SelectDistrict');
+
+require('./components/UserAddressesCreateAndEdit');
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
